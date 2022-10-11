@@ -14,7 +14,13 @@
                 <p>status: {{ blog.status }}</p> -->
             </div>
             <div class="back-nav"><button class="btn btn-success" v-on:click="navigateTo('/front')"><i class="fas fa-arrow-left"></i> Back..</button></div>
-
+              <comment-comp v-bind:blogid="blog.id" v-bind:user="user"></comment-comp>
+              <transition name="fade">
+                <div v-if="resultUpdated != ''" class="popup-msg">
+                  <p>{{ resultUpdated }}</p>
+                </div>
+              </transition>
+              <br />
 
             <br>
         </div>
