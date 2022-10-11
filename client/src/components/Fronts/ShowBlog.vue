@@ -19,49 +19,7 @@
             <br>
         </div>
     </div>
-    <!-- Site footer -->
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <h6>About</h6>
-            <p class="text-justify">com-gt.com <i>เป็นเว็บไซต์ที่เอาไว้จัดจำหน่ายอุปกรณ์คอมพิวเตอร์ทางออนไลน์ </i>สำหรับคนที่มีความต้องการซื้ออุปกรณ์คอมพิวเตอร์แต่ไม่สามารถเดินทางออกมาซื้อที่หน้าร้านได้เว็บไซต์เราจึงเป็นอีกหนึ่งทางเลือกที่จะช่วยให้ลูกค้าสะดวกสบายมากยิ่งขึ้น
-</p>
-          </div>
-
-          <div class="col-xs-6 col-md-3">
-            <h6>Categories</h6>
-            <ul class="footer-links">
-              <li v-for="cate in category" v-bind:key="cate.index">
-              <a v-on:click.prevent="setCategory(cate)" href="#">{{ cate }}
-            </a></li>
-            </ul>
-          </div>
-
-          <div class="col-xs-6 col-md-3">
-            <h6>Quick Links</h6>
-            <ul class="footer-links">
-              <router-link :to="{name: 'front'}">
-                <i class="fas fa-home"></i> Home
-              </router-link><br>
-              <router-link :to="{name: 'front-products'}">
-              <i class="fas fa-shopping-bag"></i> Order Now
-              </router-link>
-            </ul>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-         <a href="#">Com-gt</a>.
-            </p>
-          </div>
-        </div>
-      </div>
-</footer>
+   
     </div>
 </template>
 <script>
