@@ -5,7 +5,7 @@
       <div class="container">
         <div class="navbar-header">
           <a class="navbar-brand navbar-link" href="#" von:click.prevent="navigateTo('/dashboard')">
-            <img src="@/assets/3829187415_175d7b5c-a417-40ae-ac27-dacf8a95ff03.png" id="logo" />
+            <img src="11.png" id="logo" />
           </a>
           <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1">
             <span class="sr-only">Toggle navigation</span>
