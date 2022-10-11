@@ -18,18 +18,12 @@ import Upload from '@/components/Utils/Upload'
 // Front
 import FrontIndex from '@/components/Fronts/Index'
 import FrontShow from '@/components/Fronts/ShowBlog'
-
-
 import FrontCartlist from '@/components/Fronts/Cartlist'
 import FrontCartlist2 from '@/components/Fronts/Cartlist2'
 import FrontEditUser from '@/components/Fronts/EditUser'
 
-// Products
-/*import ProductIndex from '@/components/Products/Index'
-import ProductCreate from '@/components/Products/CreateProduct'
-import ProductEdit from '@/components/Products/EditProduct'
-import ProductShow from '@/components/Products/ShowProduct'
-import Cartlist from '@/components/Products/Cartlist'*/
+
+
 Vue.use(Router)
 export default new Router({
     mode: 'history',
